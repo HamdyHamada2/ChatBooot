@@ -156,6 +156,7 @@ C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\De
 C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\AI ChatBot.csproj.CoreCompileInputs.cache
 C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\AI ChatBot.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\AI ChatBot.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\AI ChatBot.sourcelink.json
 C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\scopedcss\bundle\AI ChatBot.styles.css
 C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Flash-Tech\source\repos\AIChatBot_Complete\AI ChatBot\AI ChatBot\obj\Debug\net8.0\staticwebassets.development.json

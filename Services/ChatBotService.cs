@@ -1,5 +1,6 @@
 using AI_ChatBot.Data;
 using AI_ChatBot.Models;
+using System;
 using System.Linq;
 
 namespace AI_ChatBot.Services
@@ -18,23 +19,44 @@ namespace AI_ChatBot.Services
             if (string.IsNullOrWhiteSpace(userInput))
                 return "من فضلك أدخل سؤالاً مفهوماً.";
 
-            // بحث بسيط في الأسئلة من قاعدة البيانات
-            var match = _context.KnowledgeEntries
+            // البحث في جدول المعرفة أولاً
+            var knowledgeMatch = _context.KnowledgeEntries
                 .FirstOrDefault(k =>
                     userInput.Contains(k.Question, StringComparison.OrdinalIgnoreCase) ||
                     k.Question.Contains(userInput, StringComparison.OrdinalIgnoreCase));
 
-            if (match != null)
+            if (knowledgeMatch != null)
             {
-                // تسجيل السؤال والرد في جدول ChatMessages
                 _context.ChatMessages.Add(new ChatMessage
                 {
                     UserMessage = userInput,
-                    BotResponse = match.Answer
+                    BotResponse = knowledgeMatch.Answer
                 });
                 _context.SaveChanges();
 
-                return match.Answer;
+                return knowledgeMatch.Answer;
+            }
+
+            // البحث في جدول المنتجات
+            var productMatch = _context.Products
+                .FirstOrDefault(p =>
+                    userInput.Contains(p.Name, StringComparison.OrdinalIgnoreCase) ||
+                    p.Name.Contains(userInput, StringComparison.OrdinalIgnoreCase));
+
+            if (productMatch != null)
+            {
+                var response = $"المنتج: {productMatch.Name}\n" +
+                               $"الوصف: {productMatch.Description}\n" +
+                               $"الفئة: {productMatch.Category}";
+
+                _context.ChatMessages.Add(new ChatMessage
+                {
+                    UserMessage = userInput,
+                    BotResponse = response
+                });
+                _context.SaveChanges();
+
+                return response;
             }
 
             return "أنا آسف، لم أفهم سؤالك. هل يمكنك إعادة صياغته؟";

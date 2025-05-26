@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using AI_ChatBot.Services;
 using AI_ChatBot.Data;
 using AI_ChatBot.Models;
@@ -21,7 +21,7 @@ namespace AI_ChatBot.Controllers
         [HttpPost("ask")]
         public IActionResult Ask([FromBody] ChatMessage message)
         {
-            var response = _chatBotService.GetResponse(message.Text);
+            var response = _chatBotService.GetResponse(message.UserMessage); // ✅ تم التعديل هنا
             return Ok(new { response });
         }
     }
