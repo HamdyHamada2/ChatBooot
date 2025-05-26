@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "5i0KsPY5ImvGBu1ZNurw3YRYeIFzZEwgOmV2M3xI8MI=",
+  "Source": "AI ChatBot",
+  "BasePath": "_content/AI ChatBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AI ChatBot\\wwwroot",
+      "Source": "AI ChatBot",
+      "ContentRoot": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\",
+      "BasePath": "_content/AI ChatBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\index.html",
+      "SourceId": "AI ChatBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\",
+      "BasePath": "_content/AI ChatBot",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1i0gi1xtv",
+      "Integrity": "pLw3IXXYNJWYpPuqUEKa+1uP8YXPts7a7M7LMcSGi0M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\script.js",
+      "SourceId": "AI ChatBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\",
+      "BasePath": "_content/AI ChatBot",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wbjgeorsd8",
+      "Integrity": "3KM0Ik2+Tso24MkjS6E/Wd0pYQGOa/LAOAvCXAtGd+M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\styles.css",
+      "SourceId": "AI ChatBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\",
+      "BasePath": "_content/AI ChatBot",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pze9d8008k",
+      "Integrity": "JQHxuiEN6nkmWz5PKxr5Off6appa5vpUDzbWw/eIuJ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pLw3IXXYNJWYpPuqUEKa+1uP8YXPts7a7M7LMcSGi0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 18:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pLw3IXXYNJWYpPuqUEKa+1uP8YXPts7a7M7LMcSGi0M="
+        }
+      ]
+    },
+    {
+      "Route": "index.o1i0gi1xtv.html",
+      "AssetFile": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pLw3IXXYNJWYpPuqUEKa+1uP8YXPts7a7M7LMcSGi0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 18:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1i0gi1xtv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pLw3IXXYNJWYpPuqUEKa+1uP8YXPts7a7M7LMcSGi0M="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3KM0Ik2+Tso24MkjS6E/Wd0pYQGOa/LAOAvCXAtGd+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 18:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3KM0Ik2+Tso24MkjS6E/Wd0pYQGOa/LAOAvCXAtGd+M="
+        }
+      ]
+    },
+    {
+      "Route": "script.wbjgeorsd8.js",
+      "AssetFile": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3KM0Ik2+Tso24MkjS6E/Wd0pYQGOa/LAOAvCXAtGd+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 18:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wbjgeorsd8"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3KM0Ik2+Tso24MkjS6E/Wd0pYQGOa/LAOAvCXAtGd+M="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQHxuiEN6nkmWz5PKxr5Off6appa5vpUDzbWw/eIuJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 14:20:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQHxuiEN6nkmWz5PKxr5Off6appa5vpUDzbWw/eIuJ4="
+        }
+      ]
+    },
+    {
+      "Route": "styles.pze9d8008k.css",
+      "AssetFile": "C:\\Users\\Flash-Tech\\source\\repos\\AIChatBot_Complete\\AI ChatBot\\AI ChatBot\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JQHxuiEN6nkmWz5PKxr5Off6appa5vpUDzbWw/eIuJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 14:20:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pze9d8008k"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JQHxuiEN6nkmWz5PKxr5Off6appa5vpUDzbWw/eIuJ4="
+        }
+      ]
+    }
+  ]
+}
